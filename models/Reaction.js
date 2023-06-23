@@ -23,13 +23,14 @@ const reactionSchema = new Schema(
     createdAt:{
         type:Date,
         default: Date.now,
-        //getter method to format the timestamp on query
+        get: timestamp => new Date(timestamp).toLocaleDateString()
     }
   },
   {
     toJSON: {
       getters: true,
     },
+    id: false,
   }
 );
 
