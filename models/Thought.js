@@ -12,7 +12,7 @@ const thoughtSchema = new Schema(
     createdAt:{
         type:Date,
         default: Date.now,
-        //getter method to format the timestamp on query
+        get: timestamp => new Date(timestamp).toLocaleString(),
     },
     username:{
         type: String,
@@ -28,6 +28,7 @@ const thoughtSchema = new Schema(
       getters: true,
       virtuals: true,
     },
+    id: false,
   }
 );
 
