@@ -2,7 +2,8 @@
 
 ## Description.
 
-Social Network API is a Node.js application programming interface (API) that allows users to perform CRUD operations on social networking data models using a NoSQL database. The data models include friends, users, thoughts, and reaction data models, and they can be retrieved by ID or all of them. This API is built using Node.js and Mongoose, and it provides a simple and scalable way to handle social networking data without the restrictions of traditional relational databases.
+
+The Social Network API is a Node.js API designed for performing CRUD operations on various social networking data models. It utilizes a NoSQL database and allows users to interact with models such as friends, users, thoughts, and reactions. These models can be retrieved either individually by their unique IDs or collectively. By leveraging Node.js and Mongoose, this API offers a flexible and scalable solution for managing social networking data, eliminating the limitations associated with traditional relational databases.
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -20,7 +21,7 @@ Social Network API is a Node.js application programming interface (API) that all
 
 ## The Challenge:
 
-The challenge was to build a RESTful API that allows a social media startup to perform CRUD operations on users, thoughts, and reactions data models using a NoSQL database. The API must be built using Node.js and Mongoose and must provide endpoints that can handle large amounts of unstructured data.
+The objective was to create a RESTful API for a social media startup, enabling them to execute CRUD operations on users, thoughts, and reactions data models. The API was required to be developed using Node.js and Mongoose, ensuring compatibility with a NoSQL database. Additionally, the API needed to include endpoints capable of efficiently handling substantial volumes of unstructured data.
 
 API must allow users to:
 
@@ -79,12 +80,8 @@ Each endpoint must include the necessary data in the request body or URL paramet
 
 
 ## GitHub Repository:
-[GitHub Repository:](https://github.com/ThomasCalle/Thomas-NoSQL-Social-Network-API)
+[GitHub Repository:](https://github.com/AlexNanut/Social-Network-API)
 
-
-## Screenshots:
-### Figure 1. Screenshot.
-![](/Public/assets/images/Thomas_NoSQL_Screenshot.png) 
 
 ## Installation Process:
 1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
@@ -126,4 +123,4 @@ Each endpoint must include the necessary data in the request body or URL paramet
 
 ## Author
 
-Follow me on Github at [ThomasCalle](https://github.com/ThomasCalle)! Additional questions or concerns? feel free to contact me at thomas.calle@outlook.com.
+Follow me on Github at [AlexNanut](https://github.com/AlexNanut)
