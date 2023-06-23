@@ -92,4 +92,4 @@ const ThoughtController = {
 
 };
 // Export ThoughtController
-module.exports = ThoughtController; 
+
